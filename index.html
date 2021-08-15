@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b1c6420daf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-----------Top bar------------>
+<div class="top-nav-bar">
+    <div class="search-box">
+        <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+        <i class="fas fa-times-circle" id="close-btn" onclick="closemenu()"></i>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI39E70hhxx_6UNfu9cxvAt0YJCbXu4HGjOw&usqp=CAU" class="logo">
+        <input type="text" class="form-control">
+        <span class="input-group-text"><i class="fa fa-search"></i></span>
+    </div>
+    <!----------Menu Bar--------->
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+        </ul>
+    </div>
+</div>
+<!------------------------Side Menu------------------------------>
+<section class="sec">
+<div class="side-menu" id="side-menu">
+    <ul>
+        <li>Dashboard<i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Blank</li>
+                <li>Blank</li>
+                <li>Blank</li>
+            </ul>
+        </li>
+        <li>Learners <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Ismail</li>
+                <li>Parvez</li>
+                <li>Sumon</li>    
+            </ul>
+        </li>
+        <li>Tutors <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Ismail</li>
+                <li>Turza</li>
+                <li>Parvez</li>
+            </ul>
+        </li>
+        <li>Exams <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Social sc</li>
+                <li>Bangla</li>
+                <li>Math</li>
+            </ul>
+        </li>
+        <li>Withdrawals<i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Blank</li>
+                <li>Blank</li>
+                <li>Blank</li>
+            </ul>
+        </li>
+        <li>Payments <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>1,12,123/-</li>
+                <li>1,12,123/-</li>
+                <li>1,12,123/-</li>
+            </ul>
+        </li>
+        <li>Admin Users <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Ismail</li>
+                <li>Turza</li>
+                <li>Shihab</li>
+            </ul>
+        </li>
+        <li>Settings<i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Blank</li>
+                <li>Blank</li>
+                <li>Blank</li>
+            </ul>
+        </li>
+        <li>Logout <i class="fa fa-angle-right"></i>
+            <ul>
+                <li>Blank</li>
+                <li>Blank</li>
+                <li>Blank</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!------------car slider-------------->
+    <div class="slider">
+        <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://media.istockphoto.com/photos/the-perfect-setting-to-complete-work-picture-id1251629816?b=1&k=6&m=1251629816&s=170667a&w=0&h=iRUpfVwLFMhCh8DzqoYTWSQyJLaQMgOWN7Imnt8WZ8s=" class="pic" >
+              </div>
+              <div class="carousel-item">
+                <img src="https://image.shutterstock.com/image-illustration/abstract-futuristic-technology-polygonal-shapes-260nw-1704312499.jpg" class="pic">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="pic">
+              </div>
+              <div class="carousel-item">
+                <img src="https://uploads.sitepoint.com/wp-content/uploads/2015/11/1447899031featured-image-e1447899081326.jpg" class="pic">
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+            <li data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+            <li  data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></li>
+            <li data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></li>
+            <li data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4"></li>
+            </ol>
+          </div>
+    </div>
+</section>
+   
+  <section class="featured-categories">
+      <div class="continent">
+          <div class="row pic-row">
+              <div class="col-md-4 pic-col">
+                  <img src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1vYmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+              </div>
+              <div class="col-md-4 pic-col">
+                <img src="https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1vYmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+            </div>
+            <div class="col-md-4 pic-col">
+                <img src="https://images.unsplash.com/photo-1566492625401-af879a7559f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fG1vYmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+            </div>
+          </div>
+      </div>
+  </section>
+      <!--------------------Shop and Keep Wish----------------->
+    <div class="scall">
+        <div class="continent">
+        <div class="title-box">
+            <h4>On Sale</h4>
+        </div>
+        <div class="row full">
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="data:image/jpeg;base64,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">
+                <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                     <i class="fa fa-eye"></i>
+                 </button>
+                 <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                    <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+            </div>
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+
+                <h3>Four Watch</h3>
+                <h2>$50.00</h2>
+            </div>
+            </div>
+             
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4CX_oh-Pz1HkkSiK9o5l79jLtiI1jnHMJw&usqp=CAU">
+                <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                     <i class="fa fa-eye"></i>
+                 </button>
+                 <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                    <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+            </div>
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+                <h3>Fitness Watch</h3>
+                <h2>$20.00</h2>
+            </div>
+            </div>
+
+
+            <div class="col-md-3 ">
+                <div class="product-top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOm26XfLLArJHgDDM5sLrIzkFjpBNSxUdlA&usqp=CAU">
+                <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                     <i class="fa fa-eye"></i>
+                 </button>
+                 <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                    <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+            </div>
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+
+                <h3>Back Watch</h3>
+                <h2>$50.00</h2>
+            </div>
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="product-top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFlR_rtIcmSFeoKw6pqbLgpzMSN327gJlug&usqp=CAU">
+                <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                     <i class="fa fa-eye"></i>
+                 </button>
+                 <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                    <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+            </div>
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+                <h3>Alarm Watch</h3>
+                <h2>$40.00</h2>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+  <!------------New Product------------>
+
+    <section class="new-product">
+        <div class="scall">
+            <div class="continent">
+            
+            <div class="row full">
+                <div class="col-md-3">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ-_bHIf8ZFKapdzyRUulFQtGoIAAX9JP8Ng&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-o"></i>
+    
+                    <h3>Pizza</h3>
+                    <h2>$5.00</h2>
+                </div>
+                </div>
+                 
+                <div class="col-md-3">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8dt0dC_3j2uMnDw46R5aKepY4ox8_9KStug&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-o"></i>
+    
+                    <h3>Burgar</h3>
+                    <h2>$2.00</h2>
+                </div>
+                </div>
+    
+    
+                <div class="col-md-3 ">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREK4yPJb3WIy9sgm5aoeuqlO49lsiGigdyWg&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    
+                    <h3>Kacchi Biriyani</h3>
+                    <h2>$2.00</h2>
+                </div>
+                </div>
+    
+                <div class="col-md-3 ">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXTwnAiYp_mxmoLq2hodin9-31DQ8OgB4PKg&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+    
+                    <h3>Best Rost</h3>
+                    <h2>$1.00</h2>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+
+<section class="new-product">
+        <div class="scall">
+            <div class="continent">
+            <div class="row full">
+                <div class="col-md-3">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBnr62kL0PEsQUKRltcj9YIFhth7i6Ebt2lw&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+    
+                    <h3>Bike No:01</h3>
+                    <h2>$500.00</h2>
+                </div>
+                </div>
+                 
+                <div class="col-md-3">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8g_-mQ0eTpTWnoHoAyB_08wd_drKvhx45Q&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+    
+                    <h3>Bike No:02</h3>
+                    <h2>$550.00</h2>
+                </div>
+                </div>
+    
+    
+                <div class="col-md-3 ">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSTgR8naFZbsIiIvmhMbgn40sA-YbbmbDHKw&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+    
+                    <h3>Bike No:03</h3>
+                    <h2>$600.00</h2>
+                </div>
+                </div>
+    
+                <div class="col-md-3 ">
+                    <div class="product-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToafogBt8505O0-21aXxgotvlFyF0fceyuJw&usqp=CAU">
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Add To Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Shopping Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+    
+                    <h3>Bike No:4</h3>
+                    <h2>$350.00</h2>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="t-shirt">
+        <div class="row">
+            <div class="col-md-6">
+        <div class="choice">
+            <div id="choice" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8D_yn-2AvaAsYpmWxqbpFOVGLkOaxGB7iA&usqp=CAU" class="d-block" >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDMAqEbROCM_pUdvehPIYGXUmQsL76Wz1Qxw&usqp=CAU" class="d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00HiX5y69dX63j4Bk_jENL_a_USZksiGI4Q&usqp=CAU" class="d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjt6J4ll-I9d8JJNAunO4uyXiCZMC0K5NDg&usqp=CAU" class="d-block">
+                  </div>
+                </div>
+                <div class="bnt">
+                <button class="carousel-control-prev" type="button" data-bs-target="#choice" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#choice" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                  </div>
+              </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <div class="describ">
+            <h6 class="new">New</h6>
+            <h3><b>Men's T-shirt VS Neck</b></h3>
+            <h6>Product Code : IDF2021</h6>
+            <p class="faaa">
+                <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+            </p>
+            <p class="f">USD $15.00</p>
+            <p><b>Availability :</b>In Stock</p>
+            <p><b>Condition :</b>New</p>
+            <p><b>Band :</b>Easy Company</p>
+            <label>Quantity :</label>
+            <input type="text" value="1" class="quan"></input>
+            <button type="button"  class="btn btn-secondary">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+        <div class="product">
+            <h4>Product Description</h4>
+            </br>
+            <p>
+
+                It’s no secret that great product images play a critical 
+                role in making online sales. Invest in a solution and photography workflow that 
+                ensures your product images will look better and be easier and faster to create. 
+                This competitive advantage will pay for itself repeatedly. 
+                
+                Amazon’s recent decisions to allow vendors to include 
+                video and 360 product views in their listings further confirms that 
+                the more you help potential customers visually understand your products,
+                 the more likely conversion rates will increase.</p>
+        </div>
+    </section>
+    <section class="end">
+        <div class="container">
+            <div class="row text-center endd">
+              <div class="col-md-3 one">
+                   <h6>Usefull Link</h6>
+                   <p>Privacy Policy</p>
+                   <p>Terms of Use</p>
+                    <p>Return Policy</p>
+                    <p>Discount Coupons</p>
+              </div>
+              <div class="col-md-3 one">
+                  <h6>Company</h6>
+                  <p>About Us </p>
+                  <p>Contact Us</p>
+                  <p>Career</p>
+                  <p>Affiliate</p>
+            </div>
+            <div class="col-md-3 one">
+                  <h6>Follow Us On</h6>
+                  <div class="icon">
+                 <a href="https://www.facebook.com/mdismailhosen2/">
+                 <i class="fa fa-facebook-official"></i></a>
+                 <p class="ip">Facebook</p>
+                 </div>
+                 </br>
+                 <div class="icon">
+                 <a href="https://www.youtube.com/watch?v=5HW0Im1XHvE">
+                    <i class="fa fa-youtube-play"></i></a>
+                    <p class="ip">YouTube</p>
+                    </div>
+                 </br>
+                 <div class="icon">
+                    <a href="https://www.instagram.com/ismailhosen11/">
+                        <i class="fab fa-instagram-square"></i></a>
+                        <p class="ip">Instagram</p>
+                        </div>
+                    </br>
+                    <div class="icon">
+                        <a href="https://twitter.com/MdIsmai43692459">
+                            <i class="fab fa-twitter"></i></a>
+                            <p class="ip">Twitter</p>
+                            </div>
+            </div>
+            <div class="col-md-3 four"> 
+                  <h4>Download Apps</h4>
+                  <img src="data:image/png;base64,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">
+            </div>
+        </div>
+        <hr>
+        <p class="pp">CopyRight &copy; Ismail Hosen</p>
+        </div>
+    
+    </section>
+
+
+<script>
+   
+   function openmenu(){
+          document.getElementById("side-menu").style.display="block";
+          document.getElementById("menu-btn").style.display="none";
+          document.getElementById("close-btn").style.display="block";
+   }
+   function closemenu(){
+          document.getElementById("side-menu").style.display="none";
+          document.getElementById("menu-btn").style.display="block";
+          document.getElementById("close-btn").style.display="none";
+   }
+
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+</body>
+</html>
